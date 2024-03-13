@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\micha\\OneDrive\\Desktop\\_repos\\CSC275_Week4\\Multi-threading\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32E44A3B-4B5D-48C0-98A1-7890314F7FEE}|Multi-threading.vcxproj|C:\\Users\\micha\\OneDrive\\Desktop\\_repos\\CSC275_Week4\\Multi-threading\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32E44A3B-4B5D-48C0-98A1-7890314F7FEE}|Multi-threading.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Desktop\\_repos\\CSC275_Week4\\Multi-threading\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Desktop\\_repos\\CSC275_Week4\\Multi-threading\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-13T21:58:26.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
