@@ -14,12 +14,25 @@
 #include <mutex>
 #include <chrono>
 #include <random>
+#include <memory>
 
 using namespace std;
 
 // Global variables:
 const int numThreads = 5;
 mutex mtx;
+
+struct ThreadData
+{
+	string Name;
+	int tid;
+
+	ThreadData(string name, int id)
+	{
+		Name = name;
+		tid = id;
+	}
+};
 
 // Function to determine random distance of incoming asteroid:
 int AsteroidDistance() 
@@ -42,8 +55,11 @@ void ThreadFunction(int tid) {
 	// Lock the mutex to prevent other threads from accessing the console:
 	mtx.lock();
 
+	// Create ThreadData object with unique_ptr:
+	unique_ptr<ThreadData> threadData(new ThreadData("TrackingThread", tid + 1));
+
 	// Display the distance of the incoming asteroid:
-	cout << "Asteroid " << tid + 1 << " is " << AsteroidDistance() << " miles away." << endl;
+	cout << "Asteroid " << threadData->tid << " is " << AsteroidDistance() << " miles away." << endl;
 
 	// Unlock the mutex to allow other threads to access the console:
 	mtx.unlock();
